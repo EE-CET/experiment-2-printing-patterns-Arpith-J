@@ -5,9 +5,10 @@ public class PatternPrinting {
         int n = sc.nextInt();
         for(int i = 1; i<=n; i++){
             System.out.print("*");
-            if(i==n)
-                System.out.println();
+            if(i<n)
+                System.out.print(" ");
         }
+        System.out.println();
         for(int j = 1; j<=n; j++){
             System.out.println("*");
         }
